@@ -1,0 +1,17 @@
+COLUMNS:
+  numcol: float64
+  yieldpercol: float64
+  totalprod: float64
+  stocks: float64
+
+TARGET_COLUMN:
+  prodvalue: float64
+
+
+
+
+
+
+
+
+
