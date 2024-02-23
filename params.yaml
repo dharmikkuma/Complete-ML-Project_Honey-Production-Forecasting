@@ -1,2 +1,3 @@
-alpha : 0.1
-l1_ratio : 0.5
+ElasticNet:
+  alpha : 0.1
+  l1_ratio : 0.5

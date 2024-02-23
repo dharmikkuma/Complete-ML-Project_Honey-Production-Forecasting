@@ -6,11 +6,13 @@ src/Project.egg-info/SOURCES.txt
 src/Project.egg-info/dependency_links.txt
 src/Project.egg-info/top_level.txt
 src/Project/components/__init__.py
+src/Project/components/data_ingestion.py
 src/Project/config/__init__.py
 src/Project/config/configuration.py
 src/Project/constants/__init__.py
 src/Project/entity/__init__.py
 src/Project/entity/config_entity.py
+src/Project/pipeline/_01_data_ingestion.py
 src/Project/pipeline/__init__.py
 src/Project/utils/__init__.py
 src/Project/utils/common.py

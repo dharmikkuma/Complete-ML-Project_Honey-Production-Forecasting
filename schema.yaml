@@ -1,11 +1,11 @@
 COLUMNS:
   numcol: float64
-  yieldpercol: float64
+  yieldpercol: int64
   totalprod: float64
   stocks: float64
 
 TARGET_COLUMN:
-  prodvalue: float64
+  name: prodvalue
 
 
 
