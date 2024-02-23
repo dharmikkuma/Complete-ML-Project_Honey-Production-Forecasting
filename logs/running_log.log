@@ -303,3 +303,116 @@ x==========x]
 [2024-02-23 16:58:53,245: INFO: _05_model_evaluation: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2024-02-23 17:33:57,157: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 17:33:57,157: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 17:34:03,662: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:03] "GET / HTTP/1.1" 200 -]
+[2024-02-23 17:34:03,744: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:03] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:03,876: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:03] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:03,916: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:03] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:03,961: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:03] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:04,036: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:04] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:04,077: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:04] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:04,504: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:04] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:41,305: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 17:34:41,306: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 17:34:45,997: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:45] "GET / HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,389: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,430: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,447: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,473: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,513: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 17:34:46,555: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2024-02-23 17:34:46,624: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:34:46] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 17:35:40,574: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:35:40] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 17:48:20,549: INFO: utils: NumExpr defaulting to 4 threads.]
+[2024-02-23 17:48:21,861: INFO: _04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-23 17:48:21,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-23 17:48:21,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-23 17:48:21,867: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-02-23 17:48:21,867: INFO: common: created directory at: artifacts]
+[2024-02-23 17:48:21,867: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-23 17:48:21,994: INFO: _04_model_trainer: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-02-23 17:52:35,594: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 17:52:35,594: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 17:52:38,509: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "GET / HTTP/1.1" 200 -]
+[2024-02-23 17:52:38,897: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:52:38,912: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-02-23 17:52:38,917: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:52:38,919: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:52:38,955: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:38] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 17:52:39,010: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:39] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-02-23 17:52:39,055: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:39] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 17:52:45,291: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:52:45] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 17:58:22,930: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 17:58:22,931: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 17:58:26,911: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:26] "GET / HTTP/1.1" 200 -]
+[2024-02-23 17:58:27,222: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:58:27,297: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 17:58:27,304: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:58:27,326: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-02-23 17:58:27,332: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-02-23 17:58:27,356: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-02-23 17:58:27,377: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:27] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 17:58:34,011: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 17:58:34] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 17:59:42,542: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 17:59:42,542: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 18:00:12,946: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:12] "GET / HTTP/1.1" 200 -]
+[2024-02-23 18:00:13,295: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:00:13,349: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:00:13,367: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-02-23 18:00:13,371: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:00:13,386: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 18:00:13,436: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-02-23 18:00:13,496: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:13] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 18:00:19,182: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:00:19] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 18:02:17,992: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 18:02:17,993: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 18:02:24,513: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "GET / HTTP/1.1" 200 -]
+[2024-02-23 18:02:24,776: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:02:24,776: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:02:24,776: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-02-23 18:02:24,799: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:02:24,800: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 18:02:24,830: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-02-23 18:02:24,842: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:24] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 18:02:27,189: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:02:27] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 18:02:57,092: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 18:02:57,093: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 18:03:15,222: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "GET / HTTP/1.1" 200 -]
+[2024-02-23 18:03:15,442: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:03:15,459: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:03:15,462: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-02-23 18:03:15,465: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-02-23 18:03:15,479: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-02-23 18:03:15,510: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-02-23 18:03:15,527: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:15] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-02-23 18:03:46,185: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:03:46] "POST /predict HTTP/1.1" 200 -]
+[2024-02-23 18:10:57,746: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.171:8080]
+[2024-02-23 18:10:57,746: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-23 18:11:06,328: INFO: _internal: 192.168.0.171 - - [23/Feb/2024 18:11:06] "GET / HTTP/1.1" 200 -]

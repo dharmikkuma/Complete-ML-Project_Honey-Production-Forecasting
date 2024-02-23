@@ -4,7 +4,7 @@ from Project import logger
 from sklearn.linear_model import ElasticNet
 import joblib
 from Project.entity.config_entity import ModelTrainerConfig
-
+import numpy as np
 
 
 class ModelTrainer:
@@ -25,7 +25,7 @@ class ModelTrainer:
 
 
         lr = ElasticNet(alpha=self.config.alpha, l1_ratio=self.config.l1_ratio, random_state=42)
-        lr.fit(train_x, train_y)
+        lr.fit(np.array(train_x), np.array(train_y))
 
         joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
 

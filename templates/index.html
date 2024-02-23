@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Production Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .input-box {
+            margin-bottom: 10px;
+        }
+
+        .input-box label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #predict-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Honey Production Prediction</h1>
+        <div class="input-box">
+            <label for="numcol">Number of Colonies</label>
+            <input type="number" id="numcol" step="any" placeholder="Enter number of colonies">
+        </div>
+        <div class="input-box">
+            <label for="yieldpercol">Yield per Colony</label>
+            <input type="number" id="yieldpercol" step="any" placeholder="Enter yield per colony">
+        </div>
+        <div class="input-box">
+            <label for="totalprod">Total Production</label>
+            <input type="number" id="totalprod" step="any" placeholder="Enter total production">
+        </div>
+        <div class="input-box">
+            <label for="stocks">Stocks</label>
+            <input type="number" id="stocks" step="any" placeholder="Enter stocks">
+        </div>
+        <button id="predict-btn">Predict</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('predict-btn').addEventListener('click', function () {
+            // Get input values
+            var numcol = parseFloat(document.getElementById('numcol').value);
+            var yieldpercol = parseFloat(document.getElementById('yieldpercol').value);
+            var totalprod = parseFloat(document.getElementById('totalprod').value);
+            var stocks = parseFloat(document.getElementById('stocks').value);
+
+            // Perform prediction (dummy prediction for demonstration)
+            var prediction = numcol * yieldpercol + totalprod - stocks;
+
+            // Display prediction
+            document.getElementById('result').innerHTML = '<strong>Prediction:</strong> ' + prediction.toFixed(2);
+        });
+    </script>
+
+</body>
+
+</html>
